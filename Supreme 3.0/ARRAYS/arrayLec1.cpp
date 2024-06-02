@@ -107,6 +107,10 @@ int main(){
     //     // arr[i] == i[arr]
     // }
     
+    // //array creation of size n
+    // int n; cin >> n;
+    // int *b = new int [n];
+
     int size;
     cout << "enter size of array : ";
     cin >> size;
