@@ -13,6 +13,7 @@ void print(vector<int> v) {
   cout << endl;
 }
 
+// vector me call by value hota ! for call by reference you have to use &v
 void print2(vector<int> v) {
   cout << "Printing vector method 2" << endl;
   // for each loop
@@ -21,6 +22,7 @@ void print2(vector<int> v) {
   }
   cout << endl;
 }
+
 
 int main() {
 	vector<int>v;
